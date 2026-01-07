@@ -4,7 +4,7 @@ const apiResponse_1 = require("./apiResponse");
 // SUCCESS CASE
 const success = (0, apiResponse_1.createApiResponse)({
     id: 1,
-    name: "Alice"
+    name: "Gang"
 });
 if (success.success) {
     console.log("User name:", success.data.name);
